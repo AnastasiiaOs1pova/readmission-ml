@@ -89,7 +89,8 @@ StratifiedGroupKFold + GridSearchCV
   ↓
 подбор threshold на validation
   ↓
-финальная оценка на test```
+финальная оценка на test
+```
 
 ## Результаты
 
