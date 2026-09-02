@@ -121,6 +121,7 @@ RandomForestClassifier(
     class_weight="balanced_subsample",
     random_state=42
 )
+```
 
 На validation:
 
@@ -145,6 +146,7 @@ Test содержит 20 093 наблюдения, из них 2 195 относ�
                  Predicted 0   Predicted 1
 Actual 0              7981          9917
 Actual 1               576          1619
+```
 
 После изменения threshold модель обнаруживает около 74% положительных случаев, но при этом растёт количество False Positive. ROC-AUC показывает, что разделяющая способность модели остаётся ограниченной.
 
